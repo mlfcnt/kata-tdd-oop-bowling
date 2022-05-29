@@ -18,7 +18,8 @@ export class Frame implements IFrame {
 
   private doRolls() {
     for (let i = 0; i < this.maxRollsAmount; i++) {
-      this.roll(Frame.generateRandomAmountOfPinsKnockedDown());
+      const rng = Frame.generateRandomAmountOfPinsKnockedDown();
+      this.roll(rng);
     }
   }
 
