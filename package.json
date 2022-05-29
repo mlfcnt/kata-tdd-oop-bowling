@@ -1,19 +1,12 @@
 {
   "name": "bowling",
   "version": "1.0.0",
-  "main": "index.js",
   "license": "MIT",
   "scripts": {
-    "build": "tsc -p tsconfig.json",
-    "start": "node src/index.js",
-    "dev": "nodemon src/index.ts",
     "test": "jest"
   },
   "dependencies": {
-    "fastify": "^3.29.0",
-    "jest": "^28.1.0",
-    "nodemon": "^2.0.16",
-    "ts-node": "^10.8.0"
+    "jest": "^28.1.0"
   },
   "devDependencies": {
     "@types/jest": "^27.5.1",
