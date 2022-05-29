@@ -24,14 +24,14 @@ export class Game implements IGame {
     }
   }
 
-  public results() {
-    const maxPointsPerFrame = 20;
-    const goodEnoughScore =
-      (60 * (maxPointsPerFrame * Game.totalFramesAmount)) / 100;
+  // public results() {
+  //   const maxPointsPerFrame = 20;
+  //   const goodEnoughScore =
+  //     (60 * (maxPointsPerFrame * Game.totalFramesAmount)) / 100;
 
-    if (this.score() >= goodEnoughScore) {
-      return "Let's go champ 🥳";
-    }
-    return "Better keep practicing 💪";
-  }
+  //   if (this.score() >= goodEnoughScore) {
+  //     return "Let's go champ 🥳";
+  //   }
+  //   return "Better keep practicing 💪";
+  // }
 }

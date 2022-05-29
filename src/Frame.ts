@@ -10,11 +10,10 @@ export class Frame implements IFrame {
   }
 
   private roll(amountOfPinsKnockedDown: number) {
-    if (this.currentRoll === 2) {
-      throw new Error("Frame cannot have more than 2 rolls");
+    if (this.currentRoll < this.maxRollsAmount) {
+      this.score += amountOfPinsKnockedDown;
+      this.currentRoll += 1;
     }
-    this.score += amountOfPinsKnockedDown;
-    this.currentRoll += 1;
   }
 
   private doRolls() {
