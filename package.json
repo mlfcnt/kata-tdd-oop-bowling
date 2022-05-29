@@ -6,7 +6,8 @@
     "test": "jest --coverage"
   },
   "dependencies": {
-    "jest": "^28.1.0"
+    "jest": "^28.1.0",
+    "ts-node": "^10.8.0"
   },
   "devDependencies": {
     "@types/jest": "^27.5.1",
