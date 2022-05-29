@@ -6,4 +6,5 @@ J'ai pris quelques libertés, notamment que la classe Game ne gere par les rolls
 
 ### TODO
 
-- [ ] Prise en compte des spares et strikes
+- [ ] Prise en compte des spares
+- [ ] Prise en compte des strikes
